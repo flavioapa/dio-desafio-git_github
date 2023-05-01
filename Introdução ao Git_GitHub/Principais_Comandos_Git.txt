@@ -1,0 +1,46 @@
+COMENTARIO:
+O Git é uma parte importante da programação no dia a dia (especialmente se você estiver trabalhando em equipe) e é amplamente usado no setor de software.
+
+PRINCIPAIS COMANDOS NO GIT:
+Artigo com relacionado -> https://www.freecodecamp.org/portuguese/news/10-comandos-do-git-que-todo-desenvolvedor-deveria-conhecer/
+
+git clone <https://link-com-o-nome-do-repositório>
+Git clone é uma comando para baixar o código-fonte existente de um repositório remoto (como, por exemplo, o Github). Em outras palavras, git clone, basicamente, faz uma cópia idêntica da versão mais recente de um projeto em um repositório e a salva em seu computador.
+
+git branch <nome-da-branch>
+Esse comando criará uma branch em seu local de trabalho.
+
+git push -u <local-remoto> <nome-da-branch>
+Para fazer o push (algo como enviar) da nova branch para o repositório remoto.
+
+git branch ou git branch --list
+Ver/Lista as branches.
+
+git branch -d <nome-da-branch>
+Excluir uma branch.
+
+git status
+O comando git status nos dá todas as informações necessárias sobre a branch atual.
+
+git add <arquivo>
+Adicionar um único arquivo.
+
+git add -A
+Adicionar tudo ao mesmo tempo.
+
+git commit -m "mensagem do commit"
+git commit salva suas alterações no espaço de trabalho local.
+
+git push -u origin <nome-da-branch>
+Git push faz o upload dos seus commits no repositório remoto.
+
+git pull origin <nome-da-branch>
+Baixa arquivo do repositorio remoto (GitHun) para maquina local.
+
+
+
+
+
+
+
+
